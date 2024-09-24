@@ -151,7 +151,6 @@ _______________________________________________________________
 ## Built with
 
 - Semantic HTML5 markup
-- Grid
 - Themes
 - Zustand
 - [Tailwind](https://tailwindcss.com/) - CSS Framework
