@@ -17,7 +17,7 @@ It includes Nestjs api, Front Panel (Nextjs), and Admin Panel (Nextjs). All of t
 - [RunLocally](#run-locally)
    - [otto-ecommerce-api(Nestjs)](#otto-ecommerce-apiNestjs)
    - [otto-ecommerce-next-client(Nextjs)](#otto-ecommerce-next-clientnextjs)
-   - [otto-ecommerce-next-admin(Nextjs)](#otto-ecommerce-api-adminnextjs)
+   - [otto-ecommerce-next-admin(Nextjs)](#otto-ecommerce-next-adminnextjs)
 - [Screenshots](#screenshots)
 - [Builtwith](#built-with)
 - [Features](#features)
