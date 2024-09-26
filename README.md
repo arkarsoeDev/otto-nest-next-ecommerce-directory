@@ -2,6 +2,7 @@
 
 This is the useage guide for otto ecommerce project. Otto ecommerce is three repositories project.
 It includes Nestjs api, Front Panel (Nextjs), and Admin Panel (Nextjs). All of them are seperate repository.
+(use vpn if u don't see demo images)
 
 ## 🔗 Links
 
