@@ -4,6 +4,12 @@ This is the useage guide for otto ecommerce project. Otto ecommerce is three rep
 It includes Nestjs api, Front Panel (Nextjs), and Admin Panel (Nextjs). All of them are seperate repository.
 (use vpn if u don't see demo images)
 
+NOTE
+1. nest api should run on localhost:3000
+2. client app should run on localhost:3001
+3. admin panel should run on localhost:3002
+4. stripe must be installed so that stripe webhook can work
+
 ## 🔗 Links
 
 #### Nest api
@@ -54,6 +60,12 @@ Run the project
   npm run start:dev
 ```
 
+Run stripe webhook
+
+```bash
+  stripe listen --forward-to localhost:3000/api/payment/webhook
+```
+
 ## otto-ecommerce-next-client(Nextjs)
 
 Clone the project
@@ -71,7 +83,7 @@ Install dependencies
 Copy env file
 
 ```bash
-  copy .env.example .env.development.local
+  copy .env.example .env
 ```
 
 Change env setting as example with your keys
@@ -99,7 +111,7 @@ Install dependencies
 Copy env file
 
 ```bash
-  copy .env.example .env.development.local
+  copy .env.example .env
 ```
 
 Change env setting as example with your keys
